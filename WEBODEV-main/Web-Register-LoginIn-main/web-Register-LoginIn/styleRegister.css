@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eeeeee;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 0;
+    height: 550px;
+    width: 450px;
+}
+
+
+
+.register {
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.fa {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+.info {
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+}
+
+.input {
+    width: 340px;
+    background-color: #eeeeee;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    height: 45px;
+    padding-left: 20px;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    border-radius: 50px;
+    border-color: white;
+    margin-top: 10px;
+    background-color: #E040FB;
+}
+
+.infoSingIn {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+}
+
+.signInLink {
+    text-decoration: none;
+}
+.erorInfo{
+    text-align: center;
+    font-size: 25px;
+    color: #c72c41;
+    font-weight: bold;
+    
+  }
+  .by{
+    color: gray;
+    text-align: right;
+    font-size: 12px;
+  }
